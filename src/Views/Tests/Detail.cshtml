@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Test Name Here Buddy";
+}
+
+<div id="wrapper">
+    <div id="quiz_container">
+        <div id="quiz_header">
+            <div id="question_counter">Question 1 of 10</div>
+            <div id="test_name">This is the Test Name</div>
+        </div>        
+        <div id="quiz_body">
+            
+            <div id="question_text">Put it Into Practice Assignments are designed to:<br><br>1. Provide an extra pair of hands for the department<br><br>2. Give evaluators a better idea if a Trainee is going to make it or not<br><br>3. Give Trainees some busy work while the Trainer needs to do something<br><br>4. Let Trainees practice tasks they will have to do once placed in a store<br><br>5. Provide value to the department and/or training store</div>
+            <div id="distractors">
+                <input type="radio" id="distractor1" name="distractor_list" value="1" />
+                <label for="distractor1"><span class="letter">A</span>What? I, I don't know that</label>
+                <input type="radio" id="distractor2" name="distractor_list" value="2" />
+                <label for="distractor2"><span class="letter">B</span>42</label>
+                <input type="radio" id="distractor3" name="distractor_list" value="3" />
+                <label for="distractor3"><span class="letter">C</span>What do you mean, an African or European Swallow?</label>
+                <input type="radio" id="distractor4" name="distractor_list" value="4" />
+                <label for="distractor4"><span class="letter">D</span>Barry Manilow</label>
+                <input type="radio" id="distractor5" name="distractor_list" value="5" />
+                <label for="distractor5" class="distractor_container">                    
+                    <span class="letter">E</span>
+                    <span class="distractor">Federal and state laws such as Bank Secrecy Act of 1970, USA Patriot Act of 2001, Check Cashing, Safe Harbor, Cheat Sheet, Information Sheet, Electronic Monitoring, AML Compliance Plan, Subjective Reasoning Ability, Know Your Customer and Know Your Transactions SAR, CTR, Transaction Logs</span>
+                </label>
+            </div>
+            <div id="nav_buttons">
+                <a href id="next_question" class="button next">Next</a>
+            </div>                        
+            <div id="quiz_actions">
+                <a href class="button delete">Exit</a>
+            </div>
+        </div>        
+    </div>
+</div>
+

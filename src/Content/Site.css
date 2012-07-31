@@ -1,0 +1,241 @@
+﻿body {    
+    font-size: 12px;    
+    font-family: Arial, Helvetica, Sans-Serif;    
+    background-color: #000;    
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+#wrapper {
+
+}
+
+#quiz_container
+{        
+    padding:3px;
+    background-color: #EEE;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: -400px;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    width: 800px;
+    min-height: 600px;
+    min-width: 800px;
+    text-align: center;    
+}
+
+#quiz_header
+{    
+    font-weight:bold;
+    padding:5px;    
+    color: #CCC;
+    height:20px;
+    line-height:20px;
+    background-image: linear-gradient(bottom, rgb(154,153,156) 11%, rgb(0,0,0) 56%);
+    background-image: -o-linear-gradient(bottom, rgb(154,153,156) 11%, rgb(0,0,0) 56%);
+    background-image: -moz-linear-gradient(bottom, rgb(154,153,156) 11%, rgb(0,0,0) 56%);
+    background-image: -webkit-linear-gradient(bottom, rgb(154,153,156) 11%, rgb(0,0,0) 56%);
+    background-image: -ms-linear-gradient(bottom, rgb(154,153,156) 11%, rgb(0,0,0) 56%);
+    background-image: -webkit-gradient( 	linear, 	left bottom, 	left top, 	color-stop(0.11, rgb(154,153,156)), 	color-stop(0.56, rgb(0,0,0)) );
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#9B999C');
+}
+
+#test_name {
+    float:left;        
+}
+
+#question_counter {
+    float:right;        
+}
+
+#quiz_body {   
+    text-align:left; 
+    padding:5px;
+}
+
+#question_text {
+    margin: 10px 10px 15px 10px;    
+}
+
+#distractors {
+    margin-bottom:20px;
+}
+
+#distractors input[type="radio"] {
+    display:none; 
+}
+
+#distractors label {
+    display:block;    
+    clear:both;
+    margin: 5px 0px;
+    width: 755px;
+    padding: 15px;
+    border: 1px solid #CCC;
+    -moz-box-shadow: 3px 3px 8px #888;
+    -webkit-box-shadow: 3px 3px 8px #888;
+    box-shadow: 3px 3px 8px #888;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;        
+}
+
+.letter {            
+    display:inline;
+    font-size:1.60em;
+    font-weight:bold;
+    margin-right:18px;          
+}
+
+.distractor {        
+    display:inline;    
+}
+
+#distractors label:hover {
+    background-color:#DDD;
+    cursor: pointer;
+}
+
+#distractors input[type="radio"]:checked + label { 
+    background-color:#72b9df;
+}​
+
+#nav_buttons {
+
+}
+
+#quiz_actions {
+
+}
+
+/****************buttons http://www.red-team-design.com/just-another-awesome-css3-buttons**********************/
+.button
+{        
+	display: inline-block;
+	white-space: nowrap;
+	background-color: #ccc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+	background-image: -webkit-linear-gradient(top, #eee, #ccc);
+	background-image: -moz-linear-gradient(top, #eee, #ccc);
+	background-image: -ms-linear-gradient(top, #eee, #ccc);
+	background-image: -o-linear-gradient(top, #eee, #ccc);
+	background-image: linear-gradient(top, #eee, #ccc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+	border: 1px solid #777;
+	padding: 0 1.5em;
+	margin: 0.5em;
+	font: bold 1em/2em Arial, Helvetica;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	-moz-border-radius: .2em;
+	-webkit-border-radius: .2em;
+	border-radius: .2em;
+	-moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.button:hover
+{
+	background-color: #ddd;        
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+	background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+	background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+	background-image: -ms-linear-gradient(top, #fafafa, #ddd);
+	background-image: -o-linear-gradient(top, #fafafa, #ddd);
+	background-image: linear-gradient(top, #fafafa, #ddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+}
+
+.button:active
+{
+	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;
+}
+
+.button:focus
+{
+	outline: 0;
+	background: #fafafa;
+}    
+
+.button:before
+{
+	background: #ccc;
+	background: rgba(0,0,0,.1);
+	float: left;        
+	width: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 1em 0 -1em;
+	padding: 0 .2em;
+	-moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+	-webkit-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+	box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+	-moz-border-radius: .15em 0 0 .15em;
+	-webkit-border-radius: .15em 0 0 .15em;
+	border-radius: .15em 0 0 .15em;
+        pointer-events: none;        
+}
+
+/* Hexadecimal entities for the icons */
+
+.add:before
+{
+	content: "\271A";
+}
+
+.edit:before
+{
+	content: "\270E";        
+}
+
+.delete:before
+{
+	content: "\2718";        
+}
+
+.save:before
+{
+	content: "\2714";        
+}
+
+.email:before
+{
+	content: "\2709";        
+}
+
+.like:before
+{
+	content: "\2764";        
+}
+
+.next:before
+{
+	content: "\279C";
+}
+
+.star:before
+{
+	content: "\2605";
+}
+
+.spark:before
+{
+	content: "\2737";
+}
+
+.play:before
+{
+	content: "\25B6";
+} 
+/********************buttons end*************************/
